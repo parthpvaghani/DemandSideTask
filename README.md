@@ -2,14 +2,16 @@
 
 Note Creation App With React & NestJS With Mongo Atlas DB
 
-
-
 npm --version
 6.14.12
 node --version
 v14.16.1
 nest --version
 7.6.0
+
+## Prerequisites
+1.nodejs and npm or yarn
+2.nestjs-cli -> npm i -g @nestjs/cli
 
 
 ## FRONTEND
@@ -51,3 +53,4 @@ It Runs through the MongoDB ATLAS CLOUD.\
 ReactJS, NestJS, Mongoose, apollo,  graphql, Styled Components, Material UI, JSX, CSS, GIT.
 
 ## Still Learning Docker, Will Add docker-compose soon :) 
+
