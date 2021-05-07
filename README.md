@@ -30,7 +30,7 @@ Builds the app for production to the `build` folder.\
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
+ Make Connection to this server URL [http://localhost:3001](http://localhost:3001) 
 
 ## DB
 
