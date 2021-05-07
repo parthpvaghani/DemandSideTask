@@ -1,0 +1,33 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+input CreateNoteInput {
+  creationDate: String!
+  mainContent: String!
+  tags: [String!]!
+  title: String!
+}
+
+input ListNoteInput {
+  _id: String
+  title: String
+}
+
+type Mutation {
+  createNote(payload: CreateNoteInput!): Note!
+  deleteNote(_id: String!): Note!
+}
+
+type Note {
+  _id: String!
+  creationDate: String!
+  mainContent: String!
+  tags: [String!]!
+  title: String!
+}
+
+type Query {
+  note(_id: String!): Note!
+  notes(filters: ListNoteInput): [Note!]!
+}
