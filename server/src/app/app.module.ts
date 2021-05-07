@@ -10,6 +10,7 @@ import { NoteModule } from './note/note.module';
 
 @Module({
   imports: [
+    // bad way
     MongooseModule.forRoot('mongodb+srv://parthvaghani:parth1414@cluster0.bbzjb.mongodb.net/demandSideDB?retryWrites=true&w=majority'),
     GraphQLModule.forRoot({
       autoSchemaFile: join(process.cwd(), 'src/schema.gql'),
