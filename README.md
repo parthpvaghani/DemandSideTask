@@ -18,6 +18,7 @@ nest --version
 
 (Frontend) In the project Client directory, you can run:
 
+### `cd client`
 ### `yarn start`
 
 Runs the app in the development mode.\
@@ -32,6 +33,7 @@ Builds the app for production to the `build` folder.\
 
 (Backend) In the project Server directory, you can run:
 
+### `cd server`
 ### `npm start`
 
 Runs the app in the development mode.\
